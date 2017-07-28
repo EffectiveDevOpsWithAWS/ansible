@@ -4,6 +4,7 @@
   roles: 
     - nodejs 
     - codedeploy 
+    - cloudwatch
     - { role: awslogs, name: messages, file: /var/log/messages }    
     - {        
         role: awslogs,        
